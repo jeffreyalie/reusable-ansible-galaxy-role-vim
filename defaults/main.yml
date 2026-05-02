@@ -1,0 +1,3 @@
+---
+vim_package: vim
+vim_state: present
