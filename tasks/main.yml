@@ -1,0 +1,6 @@
+---
+- name: Install vim
+  ansible.builtin.apt:
+    name: "{{ vim_package }}"
+    state: "{{ vim_state }}"
+    update_cache: true

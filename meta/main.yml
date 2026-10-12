@@ -1,0 +1,20 @@
+---
+galaxy_info:
+  role_name: vim
+  author: jeffrey
+  description: Installs vim on Ubuntu systems
+  license: MIT
+  min_ansible_version: "2.12"
+  platforms:
+    - name: Ubuntu
+      versions:
+        - focal
+        - jammy
+        - noble
+  galaxy_tags:
+    - vim
+    - editor
+    - tools
+    - ubuntu
+
+dependencies: []
